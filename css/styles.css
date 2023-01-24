@@ -1,0 +1,152 @@
+body{
+    color: #40514E;
+    margin: 0;
+    /* this code for centralize to text*/
+    text-align: center;
+    /* with use cssfontsctack, you can choose any font and if the font doesn't work some computers, you can use the reserve fonts. font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;*/ 
+    font-family: 'Merriweather', serif;
+}
+h1{
+    color: #66BFBF;
+    /* if we use this code for the change size, our text is become non-dynamic. font-size: 90px; */
+    /*font-size: 562.5%;  the math for dynamic size: 90px/16%=562.5% (we want to see 90px text. and 16px is equal to 100%) */
+    font-size: 5.625rem; /*this is the other dynamic font example. 16px = 100% = 1em so 90px=5.625em*/ /*rem means em + ignore the parents fonts*/
+    font-family: 'Sacramento', cursive;
+    /* this code show us how to center a h1 text and how to remove margin between h1 and h2 with using margin and also margin placement is clockwise.*/
+    margin: 50px auto 0 auto;
+}
+h2{
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;/*40px/16=2.5rem*/
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+h3{
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+}
+hr{
+    border-style: dotted;
+    border-bottom: none;
+    border-color: #b3cfcf;
+    border-width: 7px;
+    width: 4%;
+    margin: 100px auto;
+}
+p{
+    line-height: 2;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+.betul1-img{
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    background-color: #eaf6f6;
+}
+.betul2-img{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: #eaf6f6;
+    float: left;
+    margin-right: 30px;
+}
+.betul3-img{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: #eaf6f6;
+    float: right;
+    position: relative;
+    right: 100px;
+}
+.betul4-img{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: #eaf6f6;
+    float: left;
+}
+.top-container{
+    background-color: #eaf6f6;
+    /* for doing top-container relative, the absolute positions are related to top-container*/
+    position: relative;
+    padding-top: 50px;
+}
+.middle-container{
+    margin-top: 100px;
+}
+.intro{
+    /*shortens one big line by dividing it into lines*/
+    width: 50%;
+    margin: auto;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.experience-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.experience{
+    width: 60%;
+    margin: auto;
+}
+.profile{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: center;
+}
+.student{
+    text-decoration: underline;
+}
+.contact-message{
+    width: 40%;
+    margin: 40px auto;
+}
+.button{
+    background-color: #11999E;
+    border-radius: 60px;
+    border-color: #11999E;
+    padding: 10px 20px 10px 20px;
+    
+}
+.button:hover{
+    background-color: #0e787b;
+}
+.btn{
+    color: #EAF6F6;
+    text-decoration: none;
+}
+a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #EAF6F6;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 2%;
+    margin-top: 4%;
+}
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
